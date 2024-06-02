@@ -124,3 +124,7 @@ The application displays a list of 15 ongoing tasks. These tasks are displayed u
 ```javascript
 <Task data={taskData}>
 ```
+
+## Screenshot
+
+![Screenshot](./assets/screenshot.jpg)
