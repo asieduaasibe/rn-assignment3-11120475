@@ -94,6 +94,17 @@ This React Native application is a task manager that helps users organize their 
  <Header />
 ```
 
+### 10. TouchableOpacity
+**Usage**: A wrapper component that captures touch events and can be used to create buttons or any clickable element. It provides feedback by reducing the opacity of the wrapped view when the user presses it, indicating that the touch is recognized.
+
+**Example**:
+
+```javascript
+  <TouchableOpacity style={styles.button} onPress={onPress}>
+    <Text style={styles.buttonText}>{title}</Text>
+  </TouchableOpacity>
+```
+
 ## Categories
 The application includes the following categories with corresponding icons:
 1. Exercise
@@ -112,14 +123,4 @@ The application displays a list of 15 ongoing tasks. These tasks are displayed u
 
 ```javascript
 <Task data={taskData}>
-```
-### 10. TouchableOpacity
-**Usage**: A wrapper component that captures touch events and can be used to create buttons or any clickable element. It provides feedback by reducing the opacity of the wrapped view when the user presses it, indicating that the touch is recognized.
-
-**Example**:
-
-```javascript
-  <TouchableOpacity style={styles.button} onPress={onPress}>
-    <Text style={styles.buttonText}>{title}</Text>
-  </TouchableOpacity>
 ```
