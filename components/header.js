@@ -29,9 +29,7 @@ const styles = StyleSheet.create({
         marginTop: 0,
         padding: 20,
         paddingHorizontal: 24,
-        borderCurve: 'round',
-        borderRadius: 10,
-        padding: 5,
+
         backgroundColor: '#FBF9F7',
         width: "90%",
         display: 'flex',
@@ -52,7 +50,7 @@ const styles = StyleSheet.create({
         textAlign: 'left',
       },
       headersectionDescription: {
-        marginTop: 8,
+        marginTop: 0,
         fontSize: 12,
         fontWeight: '400',
         textAlign: 'left',
@@ -69,7 +67,7 @@ const styles = StyleSheet.create({
           height: 100,
           borderRadius: 50,
           backgroundColor:'white',
-          overflow: 'hidden',
+          // overflow: 'hidden',
           marginLeft: 24,
           width: 50,
           height: 50,

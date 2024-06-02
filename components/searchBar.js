@@ -14,7 +14,7 @@ export const SearchBar = ({ clicked, searchPhrase, setSearchPhrase, setCLicked }
                value={searchPhrase}
                onChangeText={setSearchPhrase}
                onFocus={() => {
-                  setCLicked(true);
+                  
                }}
             />
 
