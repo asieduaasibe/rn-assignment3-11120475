@@ -91,9 +91,10 @@ This React Native application is a task manager that helps users organize their 
 ### 9. Header
 - **Usage**: A custom component to display the application's header.
 - **Example**:
-  ```javascript
+
+```javascript
  <Header />
-  ```
+```
 
 ## Categories
 The application includes the following categories with corresponding icons:
