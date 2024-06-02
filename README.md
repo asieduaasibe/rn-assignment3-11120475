@@ -77,16 +77,14 @@ This React Native application is a task manager that helps users organize their 
 ### 8. SearchBar
 - **Usage**: A custom component for the search bar functionality.
 - **Example**:
-  ```javascript
-  const SearchBar = ({ value, onChangeText }) => (
-    <TextInput
-      style={styles.search}
-      placeholder="Search tasks..."
-      value={value}
-      onChangeText={onChangeText}
-    />
-  );
-  ```
+
+```javascript
+        <SearchBar
+            searchPhrase={searchPhrase}
+            setSearchPhrase={setSearchPhrase}
+            clicked={clicked}
+        />
+```
 
 ### 9. Header
 - **Usage**: A custom component to display the application's header.
